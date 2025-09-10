@@ -4,7 +4,7 @@ const app = express();
 const balanceRoutes = require("./routes/balance");
 
 app.get('/api', (req, res) => {
-    console.log(req);
+    console.log('test test');
     
     res.status(200).json('Welcome to your Vercel Node.js API!');
 });
